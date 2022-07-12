@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts - print a string that reads putchar
+ * _puts - using putchar print a string
  * @str: the string
  *
  * Return: void
@@ -12,7 +12,7 @@ void _puts(char *str)
 	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
-		i++;
+	i++;
 	}
 	_putchar('\n');
 }
