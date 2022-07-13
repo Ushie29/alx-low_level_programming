@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * puts_half - prints the second half of a string
  * @str: the string to print half
@@ -25,7 +25,7 @@ void puts_half(char *str)
 	while (str[i] != '\0')
 	{
 		j = str[i];
-	i++;
+		i++;
 		_putchar(j);
 	}
 	_putchar('\n');
