@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * malloc_checked - allocates memory using malloc
  * @b: the memory to allocate
