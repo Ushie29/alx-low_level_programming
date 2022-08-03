@@ -4,7 +4,7 @@
  * op_add - calculates the sum of two integers
  * @a: first integer
  * @b: second integer
- * Author: Monica
+ *
  * Return: sum of a and b
  */
 int op_add(int a, int b)
